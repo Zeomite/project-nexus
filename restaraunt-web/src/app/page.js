@@ -14,11 +14,23 @@ export default function Home() {
           mainHeader={'About us'}
         />
         <div className="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima odit recusandae. Illum ipsa non repudiandae? Eum ipsam iste quos suscipit tempora? Aperiam esse fugiat inventore laboriosam officiis quam rem!
-          </p>
-          <p>At consectetur delectus ducimus est facere iure molestias obcaecati quaerat vitae voluptate? Aspernatur dolor explicabo iste minus molestiae pariatur provident quibusdam saepe?</p>
-          <p>Laborum molestias neque nulla obcaecati odio quia quod reprehenderit sit vitae voluptates? Eos, tenetur.</p>
+           <section>
+        <h2>Our Cuisine</h2>
+        <p>At Hungry Haveli, we take pride in offering a diverse menu that caters to all palates. From mouthwatering curries to sizzling tandoori dishes, each item on our menu is crafted with care using the finest ingredients and spices sourced locally and from India.</p>
+        <p>Whether you're craving the fiery heat of a vindaloo or the comforting warmth of a creamy butter chicken, our menu has something to tantalize every taste bud.</p>
+    </section>
+    
+    <section>
+        <h2>Our Ambiance</h2>
+        <p>Experience the warmth of Indian hospitality as you dine in our inviting and elegant space. Adorned with vibrant colors and traditional accents, Hungry Haveli provides the perfect setting for family gatherings, intimate dinners, or casual get-togethers.</p>
+        <p>Our friendly staff is dedicated to ensuring that your dining experience is nothing short of exceptional, from the moment you walk in until the last bite is savored.</p>
+    </section>
+    
+    <section>
+        <h2>Special Events</h2>
+        <p>Looking for the perfect venue for your next special occasion? Hungry Haveli offers catering services for events of all sizes, whether it's a corporate luncheon, birthday celebration, or wedding reception.</p>
+        <p>Let us take care of the details while you relax and enjoy the festivities, knowing that your guests will be treated to the finest Indian cuisine.</p>
+    </section>
         </div>
       </section>
       <section className="text-center my-8" id="contact">
@@ -27,7 +39,7 @@ export default function Home() {
           mainHeader={'Contact us'}
         />
         <div className="mt-8">
-          <a className="text-4xl underline text-gray-500" href="tel:+46738123123">
+          <a className="text-4xl underline text-gray-500" href="tel:++919999992121">
             +91 9999992121
           </a>
         </div>
